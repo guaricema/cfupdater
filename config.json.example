@@ -1,0 +1,15 @@
+{
+    "api_key": "cloudflare-api-key",
+    "zones": [
+        {
+            "name": "example.com",
+            "records": [
+                {
+                    "record": "www",
+                    "type": "A",
+                    "ip": "%"
+                }
+            ]
+        }
+    ]
+}
