@@ -14,6 +14,16 @@ Use the symbol "%" if you want to automatically retrieve your public IP every ti
             "name": "example.com",
             "records": [
                 {
+                    "record": "@",
+                    "type": "A",
+                    "ip": "%"
+                }
+            ]
+        },
+        {
+            "name": "example.com",
+            "records": [
+                {
                     "record": "www",
                     "type": "A",
                     "ip": "%"
