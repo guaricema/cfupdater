@@ -8,3 +8,4 @@
 go.work
 config.json
 .DS_Store
+dist/
