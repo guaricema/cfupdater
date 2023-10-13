@@ -5,6 +5,16 @@
             "name": "example.com",
             "records": [
                 {
+                    "record": "@",
+                    "type": "A",
+                    "ip": "%"
+                }
+            ]
+        },
+        {
+            "name": "example.com",
+            "records": [
+                {
                     "record": "www",
                     "type": "A",
                     "ip": "%"
